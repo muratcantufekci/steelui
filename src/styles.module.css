@@ -1,0 +1,45 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #000000;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  width: 170px;
+  height: 45px;
+  border-radius: 24px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.primary {
+  background: linear-gradient(120deg, #b61765 0%, #e40b2e 100%);
+  color: #fff;
+}
+
+.secondary {
+  background: black;
+  color: #fff;
+}
+
+.tertiary {
+  background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  color: black;
+}
+
+.blues {
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  color: #fff;
+}
